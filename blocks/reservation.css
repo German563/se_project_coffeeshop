@@ -57,7 +57,7 @@ transition: 1s;
 .reservation__button:hover {
   opacity: 0.7;
 }
-.reservation__checkbox__wrapper {
+.reservation__lastwrapper {
   display: flex;
   justify-content: center;
 }
