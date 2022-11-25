@@ -48,9 +48,15 @@ flex-direction: column;
   font-size: 20px;
   line-height: 30px;
 }
+.about__paragraph:first-child {
+  margin: 0 0 20px 0;
+}
+.about__paragraph:last-child{
+  margin: 20px 0 0 0;
+}
 
 .about__circle {
-  background-color: rgb(4, 112, 136);
+  background-color: #2f80ed;
   border-radius: 100%;
   z-index: -1;
   height: 426px;
@@ -62,8 +68,8 @@ flex-direction: column;
 }
 
 .about__circle_animation_blurred {
-  transform: scale(1.1);
   animation: pulsate 1.3s ease-in-out infinite;
+  
 }
 
 @keyframes pulsate {
@@ -76,6 +82,7 @@ flex-direction: column;
   }
 
   100% {
+    transform: scale(1.3);
     opacity: 1;
   }
 }
