@@ -7,6 +7,8 @@
 }
 
 .about {
+  display: flex;
+  justify-content: space-between;
   padding: 100px 80px 173px 80px;
   background-size: cover;
   background-color: #0a2750;
@@ -29,15 +31,16 @@
 }
 
 .about__content {
-  max-width: 660px;
-  position: absolute;
-  top: 99px;
-  right: 80px;
+max-width: 660px;
+display: flex;
+flex-direction: column;
 
+  
 
 }
 
 .about__paragraph {
+
   margin: 20px 0;
   font-family: 'Noto Serif', "Times New Roman", serif;
   font-style: normal;
