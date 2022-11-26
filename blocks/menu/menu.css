@@ -51,10 +51,12 @@
   padding-bottom: 100px;
 }
 
-.card__item {
+.card__box {
   min-width: 600px;
 }
-
+.card__item {
+  padding: 0;
+}
 .card__wrapper {
   display: flex;
   max-width: 600px;
