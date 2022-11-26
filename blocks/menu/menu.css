@@ -41,7 +41,7 @@
 
 }
 
-.menu__cards {
+.menu__card {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -51,7 +51,7 @@
   padding-bottom: 100px;
 }
 
-.card__box {
+.card {
   min-width: 600px;
 }
 .card__item {
