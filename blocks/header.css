@@ -10,7 +10,7 @@
    background-position: center;
    position: relative;
    z-index: 1;
-   
+
  }
 
  .header__title {
@@ -65,20 +65,20 @@
 
  }
 
- .header__footer { 
+ .header__footer {
 
-  position: absolute; 
-  left: 0; 
-  bottom: 40px; 
-  width: 100%; 
-  padding: 0px 80px; 
-  justify-content: space-between; 
-  box-sizing: border-box; 
-  display: flex; 
-  align-items: flex-end; 
-} 
+   position: absolute;
+   left: 0;
+   bottom: 40px;
+   width: 100%;
+   padding: 0px 80px;
+   justify-content: space-between;
+   box-sizing: border-box;
+   display: flex;
+   align-items: flex-end;
+ }
 
- 
+
  .header__link:hover {
    color: #1f69c9;
  }
