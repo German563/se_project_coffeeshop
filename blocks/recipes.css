@@ -31,7 +31,8 @@
 
 .recipes__subtitle {
   margin-top: 24px;
-  max-width: 483px;
+  margin-bottom: 0;
+  max-width: 438px;
   padding-left: 80px;
   font-family: 'Noto Serif', "Times New Roman", serif;
   font-style: normal;

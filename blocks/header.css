@@ -16,28 +16,24 @@
    margin: 150px 0 0;
    max-width: 729px;
    font-family: 'Noto Serif', "Times New Roman", serif;
-   font-style: italic;
-   font-weight: normal;
+   font-weight: 500;
+   font-style: normal;
    font-size: 60px;
    line-height: 72px;
-   color: #2F80ED;
+   color: #000000;
    display: flex;
    flex-direction: column;
    position: relative;
    z-index: 2;
  }
 
- .header__subtitle {
-   font-family: 'Inter', "Arial", sans-serif;
-   font-style: normal;
-   font-weight: 500;
-   font-size: 60px;
-   line-height: 72px;
-   color: #000000;
-   margin: 0;
-   position: relative;
-   z-index: 2;
-
+ .header__span-accent {
+  color: #2F80ED;
+  font-family: 'Noto Serif', "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
  }
 
  .header__description {
@@ -56,7 +52,6 @@
    position: absolute;
    top: 124px;
    right: 5px;
-   width: 40%;
    width: 646px;
    height: 568px;
 
